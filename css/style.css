@@ -253,8 +253,6 @@
      text-align: left;
  }
  
- .about-image img {}
- 
  .about-item__two {
      flex: 0 0 33%;
      text-align: left;
@@ -415,8 +413,14 @@
          flex-direction: column;
          margin-top: 40px;
      }
-     .services__item {
+     .services-item {
          margin: 0px 30px 50px;
+     }
+     .services-item h3 {
+         margin: 8px 0px;
+     }
+     .services-item p {
+         margin: 8px 0px;
      }
  }
  
